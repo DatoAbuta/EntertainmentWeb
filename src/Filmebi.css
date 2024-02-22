@@ -1,0 +1,61 @@
+.Filmebi-item{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Filmebi-title{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    margin-top: 24px;
+}
+
+.Filmebi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo{
+    width: 250px;
+    height: 166px;
+    border-radius: 8px;
+}
+
+.ramesrame2{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+@media (width >= 768px){
+    .photo{
+        width: 220px;
+        height: 140px;
+    }
+    .Filmebi-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 29px;
+    }
+}
+
+@media (width >= 1440px){
+    .photo{
+        width: 280px;
+        height: 174px;
+        flex-shrink: 0;
+    }
+    .Filmebi-items{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 29px;
+    }
+}

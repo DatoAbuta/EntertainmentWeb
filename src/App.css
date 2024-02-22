@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--Dark-Blue, #10141E);
+}
+
+.header{
+    height: 56px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Semi-Dark-Blue, #161D2F);
+    gap: 80px;
+    padding: 0 16px;
+    width: 375px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+input{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-image: url(./search.svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.ilia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+@media (width >= 768px){
+    .header{
+        width: 719px;
+        height: 72px;
+        border-radius: 10px;
+    }
+    .ilia{
+        justify-content: left;
+    }
+    .main{
+        justify-content: left;
+        margin: 0;
+    }
+}
+
+@media (width >= 1440px){
+    .kunilingusi{
+        display: flex;
+    }
+    body{
+        display: block;
+    }
+    .header{
+        flex-direction: column;
+        width: 96px;
+        height: 960px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        margin: 32px;
+        justify-content: start;
+    }
+    nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .zoma{
+        width: 20px;
+    }
+    .witeli{
+        margin-top: 35px;
+        width: 32px;
+        height: 25.6px;
+        flex-shrink: 0;
+    }
+    .nigga{
+        margin-top: 500px;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+}

@@ -1,0 +1,148 @@
+.play{
+    width: 120px;
+    height: 48px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    cursor: pointer;
+    display: none;
+}
+
+.ptitle{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pimg{
+    width: 240px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-left: 74px;
+}
+
+
+.main{
+    width: 240px;
+}
+
+.trend{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.bkmrk{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #10141E;
+    transform: translate(273px, -135px);
+    cursor: pointer;
+}
+
+.bkmrk:hover{
+    background-color: transparent;
+}
+
+.rame{
+    margin-left: 16px;
+    transform: translate(64px, -75px);
+}
+
+.ramesrame{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.year{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.75;
+}
+
+.categ{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.75;
+}
+
+.rating{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.75;
+}
+
+.tit{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.iimg{
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+.dot{
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.splide-container {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+@media (width >= 768px){
+    .pimg{
+        width: 470px;
+        height: 230px;
+    }
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

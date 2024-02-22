@@ -1,0 +1,79 @@
+.itit{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foto{
+    width: 250px;
+    height: 166px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.recommender-item{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ramesrame1{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.xuina{
+    width: 250px;
+}
+
+.recommender-title{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+}
+
+.recommender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (width >= 768px){
+    .foto{
+        width: 220px;
+        height: 140px;
+    }
+    .recommender-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (width >= 1440px){
+    .foto{
+        width: 280px;
+        height: 174px;
+        flex-shrink: 0;
+    }
+    .recommender-items{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 40px;
+    }
+}
