@@ -1,10 +1,9 @@
 import './home.css';
 import Data from './data.json';
-import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import Recommender from '../Recommender';
-
-
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 
 export default function Home() {
 

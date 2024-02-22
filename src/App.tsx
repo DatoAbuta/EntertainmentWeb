@@ -3,10 +3,6 @@ import './App.css'
 import Home from './pages/Home'
 import Movies from './pages/Movies'
 import Tvseries from './pages/Tvseries'
-import data from './data.json'
-import { useState } from 'react'
-
-
 
 function App() {
 
